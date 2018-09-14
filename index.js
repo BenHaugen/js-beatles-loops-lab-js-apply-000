@@ -10,12 +10,11 @@ const newArray = []
   return newArray
 }
 
-function johnLennonFacts() {
+function johnLennonFacts(array) {
   var newArray = [];
-  var facts = [ "foo", "bar" ];
   var i = 0;
-  while (i < facts.length) {
-    newArray.push(facts[i] + "!!!");
+  while (i < array.length) {
+    newArray.push(array[i] + "!!!");
    i++;
   }
   return newArray;
