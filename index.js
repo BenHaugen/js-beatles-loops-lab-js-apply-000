@@ -25,6 +25,7 @@ function iLoveTheBeatles(number) {
   var newArray = [];
   var i = 0;
   do {
-    i++
+    i += 1;
+    newArray.push("I love the Beatles")
   }
 }
